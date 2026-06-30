@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Data (too large for git; download separately)
+data/
+*.pkl
+
+# Model checkpoints and logs
+ckpt_*.pt
+*.pt
+logs/
+outputs/*.pid
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+*.fdb_latexmk
+*.fls
+
+# OS
+.DS_Store
+Thumbs.db
